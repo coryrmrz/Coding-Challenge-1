@@ -12,7 +12,7 @@ console.log(isPremiumMember, typeof(isPremiumMember));
 
 let products = ["soap", "sponge", "brush"];
 const productDetails = {
-    inStock: stocked,
+    inStock: 100,
     price: 6.00,
     name: products,
 }
