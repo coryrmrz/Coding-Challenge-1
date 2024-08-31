@@ -7,3 +7,13 @@ var isPremiumMember = false;
 console.log(customerName, typeof(customerName));
 console.log(customerID, typeof(customerID));
 console.log(isPremiumMember, typeof(isPremiumMember));
+
+//Task 2: Compound Data Types
+
+let products = ["soap", "sponge", "brush"];
+const productDetails = {
+    inStock: stocked,
+    price: 6.00,
+    name: products,
+}
+console.log(products, productDetails);
